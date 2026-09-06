@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "bettersnowballs",
+  "version": "${version}",
+  "name": "Better Snowballs",
+  "description": "Snowballs deal a bit of damage, apply Slowness I for 3 seconds on hit, and ignite whatever they hit if the snowball itself was on fire.",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/bettersnowballs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bettersnowballs.BetterSnowballs"
+    ]
+  },
+  "mixins": [
+    "bettersnowballs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
